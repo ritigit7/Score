@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL Score</title>
+     <link rel="stylesheet" href="style.css">
+    <style>
+    
+        .container h1{
+        	margin: 10px 10px 20px 10px;
+        }
+        /* Styling for rotating ⚽ symbol on hover */
+        .container p {
+            position: relative;
+        }
+
+        .container p::before {
+            content: url('images/football.png');
+            display: inline-block;
+            font-size: 20px;
+            margin-right: 5px;
+            transition: transform 0.5s;
+        }
+
+        .container p:hover::before {
+            transform: rotate(360deg);
+        }
+        .alg {
+    position: relative;
+    left: -100px;
+    top: 20px;
+}
+        
+    </style>
+</head>
+<body>
+    <header>
+         <img  class="alg" src="images/ipl.png" style="height: 70px;" alt="Logo">
+        <h1 style= "margin-top:40px;">IPL Score </h1>
+    </header>
+
+    <div class="container">
+        
+        <hr>
+        <marquee>Get All Score Of IPL Matches Here.</marquee>
+        <hr>
+        <strong>Indian Leagues and Competitions:</strong>
+    <p>Royal Challengers Bangalore</p>
+        <p>Mumbai Indians</p>
+    <p>Chennai Super Kings</p>
+    <p>Delhi Capitals</p>
+    <p>Kolkata Knight Riders</p>
+    <p>Rajasthan Royals</p>
+    <p>Sunrisers Hyderabad</p>
+    <p>Punjab Kings</p>
+        <hr>
+        <a class="links" href="login.jsp">Login</a> | <a class="links" href="register.jsp">Register</a>
+    </div>
+
+    <footer>
+        &copy; 2022 IPL. All rights reserved.
+    </footer>
+</body>
+</html>

@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: url('images/field.jpeg') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        header {
+        	padding-left:35%;
+        	font-family: "Lucida Console", "Courier New", monospace;
+        	font-size:22px;
+        	font-weight:bold;
+            background-color: #060908c9;
+            color: #fff;
+            text-align: center;
+            display: flex;
+            
+        }
+        
+        
+
+        header img {
+            max-width: 100px;
+            height: auto;
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        header h1 {
+            display: inline-block;
+        }
+
+        .container {
+            padding: 20px;
+            text-align: center;
+            color: #333;
+            background-color: rgba(255, 255, 255, 0.6);
+            margin: 50px auto;
+            max-width: 540px;
+            height:460px;
+            border-radius: 10px;
+            transition: box-shadow 0.3s, transform 0.3s;
+        }
+        
+        .container:hover {
+            box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: #060908c9;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        
+        .links, .container button{
+        	margin:0px 8px;
+        	text-decoration:none;
+        	color:#007BFF;
+        	font-weight:bold;
+        	transition:color 0.3s ease;
+        }
+        
+        .links:hover , .container button:hover {
+    		color: #d9e2f4;;
+    		font-size: 16px;
+    		text-transform: uppercase;
+		}
+		
+		.container h1{
+    		background-color: #2D343C; /* Button color */
+            border: 2px solid #0E1114; /* Border color */
+            border-radius: 8px;
+    		color:white;
+			background-color: #2d343cf5;
+			margin: 10px 80px 30px 80px;
+    		font-family: "Lucida Console", "Courier New", monospace;
+    		font-weight: bold;
+    	}
+		
+		.container a, .container button {
+            display: inline-block;
+            margin:auto;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #fff;
+            background-color: #2D343C; /* Button color */
+            border: 2px solid #0E1114; /* Border color */
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .container a:hover, .container button:hover {
+            background-color: #08090B; /* Button color on hover */
+        }
+        
+        button{
+    		font-size:15px;
+    	}
